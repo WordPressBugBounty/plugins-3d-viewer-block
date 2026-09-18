@@ -1,64 +1,63 @@
-=== 3D Viewer Block – Interactive 3D Model Display ===
-Contributors: bplugins, abuhayat, charlescormier
-Donate link: https://www.buymeacoffee.com/abuhayat
-Tags: block, 3d, 3d model, 3d viewer, Gutenberg block
-Requires at least: 6.5
-Tested up to: 7.0
+=== 3D Viewer Block – Bring Your Products to Life with Interactive 3D ===
+Contributors: bplugins, abuhayat, shehabulislam
+Tags: 3d viewer, 3d model, 3d, block, gutenberg block
+Tested up to: 7.1
 Stable tag: 1.1.0
 Requires PHP: 7.1
+Requires at least: 6.5
+Donate link: https://www.buymeacoffee.com/abuhayat
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Embed 3D models. Display interactive 3D models within a few clicks using the Gutenberg Editor.
+Embed interactive 3D models in the Gutenberg editor. Display GLB, GLTF, OBJ, and STL files with orbit, pan, zoom, and touch controls.
 
 == Description ==
 
-Simple Yet Powerful 3D Viewer. Make your website look more interactive and visually appealing with 3D Viewer. This is a block plugin that will add a new block in the block (3D Viewer ) editor of WordPress. You can embed .glt, .gltF model file in post, page, and widget areas. It comes with everything you need to make the most out of 3D. advertise your products interestingly.
+**Give visitors a product they can rotate, zoom, and explore – add interactive 3D models to any post or page straight from the Gutenberg editor.**
 
-3D Viewer Block is a powerful and easy-to-use block plugin that allows you to display interactive 3D models in your WordPress posts and pages. With this plugin, you can embed 3D models in your content using the new Gutenberg editor, giving your users an engaging and immersive viewing experience.
+[**Live Demo**](https://bblockswp.com/demo/3d-viewer/)
 
-With 3D Viewer Block, you can upload 3D models in various file formats, including OBJ, STL, and GLB, and customize their appearance with a range of settings, such as lighting, background color, and camera controls. You can also choose from different viewing modes, including orbit, pan, and zoom, to give your users the best possible 3D viewing experience.
+https://youtube.com/watch?v=djgDWS9sNno
 
-The plugin includes an intuitive block interface that simplifies the process of adding 3D models to your content. Simply select the 3D Viewer Block from the Gutenberg block library, upload your model, customize the settings to your liking, and you're done!
+### Why 3D Viewer Block?
 
-3D Viewer Block is optimized for mobile devices and supports touch controls, making it easy for your users to interact with your 3D content on their smartphones and tablets. The plugin is also compatible with WooCommerce, allowing you to showcase 3D models of your products in a stunning and engaging way.
+Static images only show one angle. **3D Viewer Block** adds a native Gutenberg block that lets you embed interactive 3D models in posts, pages, and widget areas – visitors can orbit, pan, and zoom with a mouse or touchscreen for an engaging, immersive viewing experience.
 
-Overall, 3D Viewer Block is a versatile and powerful block plugin that can help you showcase 3D content in your WordPress posts and pages with ease. Try it out today and take your content to the next level!
+Upload models in popular formats including GLB, GLTF, OBJ, and STL, then fine-tune the appearance with settings such as lighting, background color, and camera controls – all from the block editor's sidebar. The intuitive block interface keeps it simple: insert the block, upload your model, adjust the settings, and publish.
 
-= For whom = 
-* Creative Designer and Agencies. 
-* Trainer / Course Creators
-* E-commerce sites that want to display their products in 3D.
-* Web designer/developer
-* Real estate
+The viewer is optimized for mobile devices with full touch support, and it's compatible with WooCommerce, so you can showcase 3D models of your products in a stunning, engaging way.
 
+### Free Features
 
-**[Demos](https://bblockswp.com/demo/3d-viewer/)**
+- **Native Gutenberg Block:** Add 3D models to posts, pages, and widget areas in a few clicks.
+- **Popular 3D Formats:** Upload GLB, GLTF, OBJ, and STL model files.
+- **Mouse & Touch Controls:** Orbit, pan, and zoom on desktop and mobile.
+- **Fully Responsive:** Works great on any device and screen size.
+- **External Source:** Load models from other cloud storage.
+- **Customizable Viewer:** Adjust lighting, background color, and camera controls from the block sidebar.
+- **WooCommerce Compatible:** Showcase 3D models of your products.
 
+### How to Use
 
-= Features =
-- **Controls**: Controls via mouse/touch
-- **Responsive**: Works great with any device. 
-- **External Source**: Use models from other cloud storage. 
+1. Install and activate the **3D Viewer Block** plugin.
+2. In the Gutenberg editor, add the **3D Viewer** block from the "Widgets" block category.
+3. Upload your 3D model or use an external source.
+4. Adjust the block settings from the right-side settings sidebar.
+5. Publish – your interactive 3D model is live!
 
+### Use Cases
 
-= How to use =
-- First, install the 3D Viewer Block plugin
-- Add the 3D Viewer block from the block category called "Widgets" in the Gutenberg editor.
-- You can change block settings from the right-side settings sidebar.
-- Enjoy!
+- **E-commerce Stores:** Display products in 3D so shoppers can inspect every angle.
+- **Creative Designers & Agencies:** Present design work interactively.
+- **Trainers & Course Creators:** Embed 3D visuals in learning content.
+- **Web Designers & Developers:** Add engaging 3D elements to client sites.
+- **Real Estate:** Showcase properties and models interactively.
 
-* For installation help click on Installation Tab
-
-
-= Feedback =
-- Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
-
+Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 ### Check out the Parent Plugin of this plugin-
 
 [**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
-
 
 ### Check out our other WordPress Plugins-
 
@@ -74,24 +73,21 @@ Overall, 3D Viewer Block is a versatile and powerful block plugin that can help 
 
 [**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
-
 == Installation ==
 
-= From Gutenberg Editor: =
-1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **3D Viewer**
-3. Click on the **3D Viewer** to add the block
+**From your WordPress dashboard (recommended):**
 
-= Download & Upload: =
-1. Download the **3D Viewer Block** plugin (*.zip file*)
-2. In your admin area, go to the Plugins menu and click on **Add New**
-3. Click on **Upload Plugin** and choose the **`3d-viewer-block.zip`** file and click on **Install Now**
-4. Activate the plugin and Enjoy!
+1. Go to **Plugins → Add New**.
+2. Search for **"3D Viewer Block"**.
+3. Click **Install Now**, then **Activate**.
+4. Add the **3D Viewer** block to any post or page in the Gutenberg editor.
 
-= Manually: =
-1. Download and upload the **3D Viewer Block** plugin to the **`/wp-content/plugins/`** directory
-2. Activate the plugin through the Plugins menu in WordPress
+**Manual installation:**
 
+1. Download the **3D Viewer Block** plugin (*.zip file*).
+2. In your admin area, go to **Plugins → Add New** and click **Upload Plugin**.
+3. Choose the `3d-viewer-block.zip` file and click **Install Now**.
+4. Activate the plugin through the **Plugins** menu in WordPress.
 
 == Frequently Asked Questions ==
 
@@ -99,28 +95,42 @@ Overall, 3D Viewer Block is a versatile and powerful block plugin that can help 
 
 Yes, 3D Viewer Block is a free Gutenberg block plugin.
 
+= Which 3D file formats can I upload? =
+
+You can upload 3D models in various file formats, including GLB, GLTF, OBJ, and STL.
+
 = Does it work with any WordPress theme? =
 
-Yes, it will work with any standard WordPress theme.
+Yes, it works with any standard WordPress theme.
 
-= Can I change block settings? =
+= Can I change the block settings? =
 
-Yes, you can change block settings from the Gutenberg block editor's right sidebar.
+Yes, you can change the block settings from the Gutenberg block editor's right sidebar, including lighting, background color, and camera controls.
 
-= How many times can I reuse a block? =
+= Does it work on mobile devices? =
 
-You can use unlimited times as you want.
+Yes. The viewer is optimized for mobile devices and supports touch controls, so visitors can rotate, pan, and zoom 3D models on smartphones and tablets.
+
+= Is it compatible with WooCommerce? =
+
+Yes, the plugin is compatible with WooCommerce, allowing you to showcase 3D models of your products.
+
+= Can I load models from external sources? =
+
+Yes, you can use models hosted on other cloud storage.
+
+= How many times can I reuse the block? =
+
+You can use the block an unlimited number of times across your site.
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/3d-viewer-block/)
-
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/3d-viewer-block/).
 
 == Screenshots ==
 
 1. 3D Viewer
 2. Settings
-
 
 == Changelog ==
 

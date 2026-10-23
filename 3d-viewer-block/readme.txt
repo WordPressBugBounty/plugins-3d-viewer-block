@@ -1,6 +1,6 @@
 === 3D Viewer Block – Bring Your Products to Life with Interactive 3D ===
 Contributors: bplugins, abuhayat, shehabulislam
-Tags: 3d viewer, 3d model, 3d, block, gutenberg block
+Tags: 3d viewer, 3d model, 3d, glb viewer, gutenberg block
 Tested up to: 7.1
 Stable tag: 1.1.0
 Requires PHP: 7.1

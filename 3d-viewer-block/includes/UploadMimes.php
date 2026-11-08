@@ -3,7 +3,7 @@ namespace TDVB;
 
 if ( !defined( 'ABSPATH' ) ) { exit; }
 
-if( !class_exists( 'TDVBUploadMimes' ) ){
+if( !class_exists( __NAMESPACE__ . '\TDVBUploadMimes' ) ){
 	class TDVBUploadMimes {
 		public function __construct() {
 			add_filter( 'upload_mimes', [$this, 'uploadMimes'] );

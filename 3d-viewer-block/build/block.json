@@ -1,6 +1,7 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
+  "version": "1.2.0",
   "name": "tdvb/td-viewer",
   "title": "3D Viewer",
   "description": "Display interactive 3D models on the web.",
@@ -10,7 +11,7 @@
     "3d model",
     "3d viewer"
   ],
-  "textdomain": "3d-viewer",
+  "textdomain": "3d-viewer-block",
   "attributes": {
     "align": {
       "type": "string",
@@ -59,6 +60,77 @@
     "loadingType": {
       "type": "string",
       "default": "auto"
+    },
+    "poster": {
+      "type": "object",
+      "default": {
+        "id": null,
+        "url": ""
+      }
+    },
+    "autoRotate": {
+      "type": "boolean",
+      "default": true
+    },
+    "exposure": {
+      "type": "number",
+      "default": 1
+    },
+    "shadowIntensity": {
+      "type": "number",
+      "default": 0
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "widthTablet": {
+      "type": "string",
+      "default": ""
+    },
+    "heightTablet": {
+      "type": "string",
+      "default": ""
+    },
+    "widthMobile": {
+      "type": "string",
+      "default": ""
+    },
+    "heightMobile": {
+      "type": "string",
+      "default": ""
+    },
+    "fullscreenBtn": {
+      "type": "boolean",
+      "default": false
+    },
+    "zoomBtns": {
+      "type": "boolean",
+      "default": false
+    },
+    "screenshotBtn": {
+      "type": "boolean",
+      "default": false
+    },
+    "downloadBtn": {
+      "type": "boolean",
+      "default": false
+    },
+    "progressBar": {
+      "type": "boolean",
+      "default": true
+    },
+    "progressBarColor": {
+      "type": "string",
+      "default": ""
+    },
+    "loadingPercentage": {
+      "type": "boolean",
+      "default": false
+    },
+    "controlsPosition": {
+      "type": "string",
+      "default": "bottom-right"
     }
   },
   "supports": {
@@ -76,7 +148,8 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./view.css",
+  "style": "file:./style-index.css",
   "render": "file:./render.php",
-  "viewScriptModule": "bp3d-model-viewer"
+  "viewScript": "file:./view.js",
+  "viewScriptModule": "bp3d-lib-model-viewer"
 }
